@@ -10,9 +10,9 @@
     <form action="post">
         <div>
             <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName">
+            <input type="text" name="firstName" id="firstName" required>
             <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName">
+            <input type="text" name="lastName" id="lastName" required>
         </div>
         <p>Select a Race:</p>
         <div>
@@ -28,14 +28,14 @@
             <label for="fullMarathon">Full Marathon</label>
         </div>
         <div>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <label for="email" >E-mail</label>
+            <input type="email" name="email" id="email" required>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" required>
         </div>
         <div>
             <label for="ageGroup">Select Age Group:</label>
-            <select name="ageGroup" id="ageGroup">
+            <select name="ageGroup" id="ageGroup" required>
                 <option value="">--Please choose an option--</option>
                 <option value="<18">- under 18</option>
                 <option value="18-30">18-30</option>
